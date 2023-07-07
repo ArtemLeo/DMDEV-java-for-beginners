@@ -8,10 +8,10 @@ public class Task_05 {
         int first = 5;
         int second = 10;
         int max = getMax(first, second);
-        System.out.println(max);
+        System.out.println("Max is: " + max);
 
-        int maxMath = Math.max(first,second);
-        System.out.println(maxMath);
+        int maxMath = Math.max(first, second);
+        System.out.println("Max is: " + maxMath);
     }
 
     public static int getMax(int value1, int value2) {
