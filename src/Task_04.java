@@ -12,7 +12,9 @@ public class Task_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         isLeapYearVOID(scanner.nextInt());
-        System.out.println("Високосный - " + isLeapYearRETURN(scanner.nextInt()));
+
+        boolean result = isLeapYearRETURN(scanner.nextInt());
+        System.out.println("Високосный - " + result);
 
 
     }
