@@ -8,6 +8,7 @@ public class Task_12 {
         int value = 5; // factorial = 120
         System.out.println("With Recursion: " + factorialRecursion(value));
         System.out.println("With Cycle: " + factorialCycle(value));
+
     }
 
     private static int factorialRecursion(int value) {
