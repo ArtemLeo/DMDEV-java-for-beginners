@@ -21,7 +21,7 @@ public class Task_17 {
         int minIndex = Task_16.valueMin(values);
         int maxIndex = Task_16.valueMax(values);
 
-        // Math.min() & Math.max()
+        // Math.min() & Math.max();
         int startIndex = Math.min(minIndex, maxIndex);
         int endIndex = Math.max(minIndex, maxIndex);
         for (int i = startIndex + 1; i < endIndex; i++) {
@@ -30,7 +30,7 @@ public class Task_17 {
         return result;
     }
 
-    // Rule of "Three glasses"
+    // Rule of "Three glasses";
     public static int sum2(int[] values) {
         int result = 0;
         int startIndex = Task_16.valueMin(values);
