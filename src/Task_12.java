@@ -1,6 +1,6 @@
 
 /*
- * Рекурсия
+ * Task 12: Рекурсия
  */
 
 public class Task_12 {
