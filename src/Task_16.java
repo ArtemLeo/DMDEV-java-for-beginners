@@ -12,9 +12,9 @@ public class Task_16 {
         System.out.println("Min value: " + array[11]);
     }
 
-    private static int valueMin(int[] array) {
+    public static int valueMin(int[] array) {
         int minIndex = 0;
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             if (array[minIndex] > array[i]) {
                 minIndex = i;
             }
@@ -22,9 +22,9 @@ public class Task_16 {
         return minIndex;
     }
 
-    private static int valueMax(int[] array) {
+    public static int valueMax(int[] array) {
         int maxIndex = 0;
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             if (array[maxIndex] < array[i]) {
                 maxIndex = i;
             }
